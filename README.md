@@ -14,7 +14,7 @@ Installation
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 ```shell
-set -g @plugin 'tmux-plugins/tmux-disk'
+set -g @plugin 'yumiriam/tmux-disk'
 ```
 
 Hit `prefix + I` to fetch the plugin and source it.
@@ -26,7 +26,7 @@ If format strings are added to `status-right`, they should now be visible.
 Clone the repo:
 
 ```shell
-$ git clone https://github.com/tmux-plugins/tmux-disk ~/clone/path
+$ git clone https://github.com/yumiriam/tmux-disk ~/clone/path
 ```
 
 Add this line to the bottom of `.tmux.conf`:
